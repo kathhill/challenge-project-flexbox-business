@@ -1,0 +1,128 @@
+body {
+    font-family: "Poiret One", sans-serif;
+    font-size: 36px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items:start;
+    background: url(images/banner2-getfit.jpg) no-repeat;
+    height: 500px;
+}
+
+header img {
+    box-shadow: 12px 12px 10px 2px rgba(0, 0, 0, .6);
+    width: 300px;
+}
+
+nav {
+    padding-top: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+}
+
+nav li {
+    background-color: #fff;
+    border: 1px solid #333;    
+    text-align: center;
+}
+
+nav li + li {
+    margin-left: 1rem;
+}
+
+nav a {
+    color: #333;
+    display: block;
+    padding: .5rem;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:active,
+nav a:focus {
+    color: #fff;
+}
+
+nav li:hover,
+nav li:active,
+nav li:focus {
+    background-color: #333;
+}
+
+#mission {
+    margin-bottom: 4rem;
+}
+
+#mission h2 {
+    text-align: center;
+}
+
+#services {
+    background-color: #ddd;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.content {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.content ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.content ul li {
+    flex-basis: 250px;
+}
+
+.content .services img,
+.content .team img {
+    width: 250px;
+    border: 1px solid #333;
+    padding: 1rem;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+footer .content ul {
+    justify-content:flex-start;
+}
+
+footer .content li {
+    padding-right: 1rem;
+    flex-basis: auto;
+}
+
+footer .content li span {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+    header {
+        flex-direction: column;
+    }
+    .banner {
+        background-position: center;
+    }
+    .banner .headline {
+        width: 85%;
+    }
+}
