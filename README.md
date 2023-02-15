@@ -1,6 +1,6 @@
 # Challenge Project: Company Home Page with Flexbox
 
-* In partial fulfillment of the Full-Stack Engineering Career Path *
+In partial fulfillment of the Full-Stack Engineering Career Path
 
 ## Notes
 
