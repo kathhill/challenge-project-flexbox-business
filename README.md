@@ -6,7 +6,7 @@
 
 ### Company
 
-A Personal Trainer
+Fitness Company
 
 ### Name
 
@@ -26,6 +26,6 @@ Guiding you to your authentic self through fitness.
 
 ### Product
 
-Nutrition, cardio, strength training
+Nutrition, cardio, strength training, meditation
 
 
